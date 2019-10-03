@@ -63,6 +63,7 @@ public class QuestionBlog {
 //		ChromeOptions options = new ChromeOptions();
 //		options.addArguments("--disable-notifications");
 		
+		driver.close();
 	}
 
 }
